@@ -78,9 +78,8 @@ a:focus {
 /*header section*/
 .hero_area {
     position: page;
-    background-image: radial-gradient(#c5f0e6,#4da7e2);
+    background-image: linear-gradient(to bottom right, #4da7e2,#76d5e8,#c5f0e6);
 }
-
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
@@ -111,9 +110,6 @@ a:focus {
 .header_section .header_bottom {
   padding: 10px 0;
 }
-.span2{
-    font-weight:bold;
-}
 .navbar-brand {
     padding: 0;
     margin: 0;
@@ -122,10 +118,10 @@ a:focus {
     font-size: 30px;
 }
 
-.navbar-brand span {
-  color: #0355cc;
-  text-transform: uppercase;
-}
+    .navbar-brand span {
+        color: #50d7e6;
+        text-transform: uppercase;
+    }
 
 .custom_nav-container {
   padding: 0;
@@ -276,9 +272,6 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-size: cover;
-  background-position: top;
-  background-image:url(\favicon\favicon.png);
 }
 
 .slider_section .row {
@@ -297,17 +290,13 @@ a:focus {
 }
 
     .slider_section .detail-box h1 {
-        margin-top: 10px;
-        font-family:'Arial Rounded MT';
+        margin-top: -50px;
+        font-family: 'Arial Rounded MT';
         font-size: 80px;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
         color: rgba(254,240,227,255);
     }
 
-.slider_section .detail-box p {
-  color: #444;
-  font-size: 20px;
-}
 
 .slider_section .detail-box a {
   display: inline-block;
@@ -328,7 +317,8 @@ a:focus {
 .slider_section .img-box img {
   float:right;
   width: 40%;
-  margin-bottom:40px;
+  margin-bottom:100px;
+  margin-right:50px;
   transform: rotate(12.5deg);
 }
 
@@ -369,7 +359,7 @@ a:focus {
 }
 
 .professional_section {
-  background-color: #d1e3ff;
+    background-image: radial-gradient(#c5f0e6,#4da7e0);
 }
 
 .professional_section .row {
