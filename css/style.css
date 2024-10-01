@@ -818,7 +818,7 @@ a:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-.navbar navbar-expand-lg custom_nav-container {
+.span1{
     color: aquamarine;
     font-weight: bold;
 }
