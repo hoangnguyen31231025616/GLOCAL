@@ -78,8 +78,8 @@ a:focus {
 
 /*header section*/
 .hero_area {
-    position: fixed;
-    background-image: url(\favicon\mapsite.png);
+    position: relative;
+    background-color: #6dddde;
 }
 
 .header_section .container-fluid {
