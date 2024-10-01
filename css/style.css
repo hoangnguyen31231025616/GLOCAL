@@ -79,7 +79,7 @@ a:focus {
 /*header section*/
 .hero_area {
     position: fixed;
-    background-image: url(favicon\mapsite.png);
+    background-image: url(\favicon\mapsite.png);
 }
 
 .header_section .container-fluid {
