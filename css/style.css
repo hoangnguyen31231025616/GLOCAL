@@ -78,8 +78,8 @@ a:focus {
 
 /*header section*/
 .hero_area {
-  position: relative;
-  background-color: #d1e3ff;
+    position: relative;
+    background-image: https://github.com/hoangnguyen31231025616/GLOCAL/blob/master/favicon/favicon.png?raw=true;
 }
 
 .header_section .container-fluid {
