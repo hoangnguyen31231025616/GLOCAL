@@ -321,23 +321,95 @@ a:focus {
   margin-right:50px;
   transform: rotate(12.5deg);
 }
+.feature_section {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
-.about_section .row {
+    .feature_section .feature_container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+        .feature_section .feature_container .box {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 10px;
+            padding: 45px 15px;
+            background-color: #ffffff;
+            color: #555089;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+        }
+
+            .feature_section .feature_container .box .img-box {
+                width: 80px;
+                height: 70px;
+            }
+
+                .feature_section .feature_container .box .img-box svg {
+                    width: 100%;
+                    height: auto;
+                    max-height: 100%;
+                    fill: #726dae;
+                    -webkit-transition: all 0.3s;
+                    transition: all 0.3s;
+                }
+
+                    .feature_section .feature_container .box .img-box svg path {
+                        fill: #726dae;
+                    }
+
+            .feature_section .feature_container .box .name {
+                margin-top: 20px;
+                text-transform: uppercase;
+                font-family: 'Merriweather Sans', sans-serif;
+                margin-bottom: -30px;
+            }
+
+            .feature_section .feature_container .box:hover, .feature_section .feature_container .box.active {
+                background-color: #ff8a1d;
+                color: #ffffff;
+            }
+
+                .feature_section .feature_container .box:hover .img-box svg, .feature_section .feature_container .box.active .img-box svg {
+                    fill: #ffffff;
+                }
+
+                    .feature_section .feature_container .box:hover .img-box svg path, .feature_section .feature_container .box.active .img-box svg path {
+                        fill: #ffffff;
+                    }
+.pricing_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.about_section .detail-box h2 {
+.pricing_section .detail-box h2 {
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.about_section .detail-box p {
+.pricing_section .detail-box p {
   margin-top: 10px;
 }
 
-.about_section .detail-box a {
+.pricing_section .detail-box a {
   margin-top: 15px;
   display: inline-block;
   font-family: 'Merriweather Sans', sans-serif;
@@ -349,40 +421,40 @@ a:focus {
   color: #ffffff;
 }
 
-.about_section .detail-box a:hover {
+.pricing_section .detail-box a:hover {
   background-color: transparent;
   color: #0355cc;
+}
+
+.pricing_section .img-box img {
+  width: 100%;
+}
+
+.about_section {
+    background-image: linear-gradient(to bottom left, #4da7e2,#76d5e8,#c5f0e6);
+}
+
+.about_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about_section .img-box img {
   width: 100%;
 }
 
-.professional_section {
-    background-image: radial-gradient(#c5f0e6,#4da7e0);
-}
-
-.professional_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.professional_section .img-box img {
-  width: 100%;
-}
-
-.professional_section .detail-box h2 {
+.about_section .detail-box h2 {
   text-transform: uppercase;
   font-weight: bold;
   color: #0355cc;
 }
 
-.professional_section .detail-box p {
+.about_section .detail-box p {
   margin-top: 20px;
 }
 
-.professional_section .detail-box a {
+.about_section .detail-box a {
   margin-top: 25px;
   display: inline-block;
   font-family: 'Merriweather Sans', sans-serif;
@@ -394,7 +466,7 @@ a:focus {
   color: #ffffff;
 }
 
-.professional_section .detail-box a:hover {
+.about_section .detail-box a:hover {
   background-color: transparent;
   color: #ff8a1d;
 }
