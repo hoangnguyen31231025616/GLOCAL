@@ -818,7 +818,7 @@ a:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-.navbar-brand{
+.glocal-brand{
     color: aquamarine;
     font-weight: bold;
 }
