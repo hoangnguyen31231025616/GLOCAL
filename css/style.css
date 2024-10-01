@@ -324,8 +324,8 @@ a:focus {
 }
 
 .slider_section .img-box img {
-  width: 70%;
-  transform: rotate(40deg);
+  width: 45%;
+  transform: rotate(12.5deg);
 }
 
 .feature_section {
