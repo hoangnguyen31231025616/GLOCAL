@@ -818,8 +818,8 @@ a:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-.span1{
-    color: aquamarine;
+.span1 {
+    color: #68e3de;
     font-weight: bold;
 }
 
