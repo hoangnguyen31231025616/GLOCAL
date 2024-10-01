@@ -820,6 +820,7 @@ a:focus {
 }
 .navbar-brand{
     color: aquamarine;
+    font-weight: bold;
 }
 
 /* footer section*/
