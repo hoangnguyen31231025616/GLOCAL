@@ -318,10 +318,10 @@ a:focus {
         margin-top: 15px;
     }
 
-        .slider_section .detail-box a:hover {
-            background-color: transparent;
-            color: #ff8a1d;
-        }
+.slider_section .detail-box a:hover {
+  background-color: transparent;
+  color: #ff8a1d;
+}
 
 .slider_section .img-box img {
   width: 100%;
