@@ -818,6 +818,9 @@ a:focus {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+glocal-brand{
+    color: aquamarine;
+}
 
 /* footer section*/
 .footer_section {
