@@ -296,9 +296,9 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  font-weight: bold;
-  margin-bottom: 25px;
-  color: #0355cc;
+        font-weight: bold;
+        margin-bottom: 25px;
+        color: rgba(255,242,226,255);
 }
 
 .slider_section .detail-box p {
