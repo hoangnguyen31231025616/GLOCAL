@@ -82,12 +82,13 @@ a:focus {
 /*header section*/
 .hero_area {
     position: page;
-    background-image: linear-gradient(to bottom right, #4da7e2,#76d5e8,#c5f0e6);
+    background-image: linear-gradient(to bottom left, #4da7e2,#76d5e8,#c5f0e6);
 }
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
 }
+
 
 .header_section .header_top {
   padding: 15px 0;
@@ -134,7 +135,12 @@ a:focus {
 .custom_nav-container .navbar-nav {
   margin-left: auto;
 }
-
+.logo {
+    background-color: #FFFFFF;
+    background-position-x:20px;
+    border-radius: 20px;
+    width: 95px;
+}
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 10px 25px;
   color: #000000;
@@ -142,8 +148,8 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #0355cc;
-}
+    color: #50d7e6;
+ }
 
 .custom_nav-container .form-inline .nav_search-btn {
   width: 35px;
@@ -153,9 +159,9 @@ a:focus {
   color: #000000;
 }
 
-.custom_nav-container .form-inline .nav_search-btn:hover {
-  color: #0355cc;
-}
+    .custom_nav-container .form-inline .nav_search-btn:hover {
+        color: #50d7e6;
+    }
 
 .custom_nav-container .navbar-toggler {
   outline: none;
