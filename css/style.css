@@ -438,7 +438,7 @@ a:focus {
 }
 
 .about_section {
-    background-image: linear-gradient(to bottom left, #4da7e2,#76d5e8,#c5f0e6);
+    background-color: white;
 }
 
 .about_section .row {
@@ -448,7 +448,11 @@ a:focus {
 }
 
 .about_section .img-box img {
-  width: 100%;
+  width: 40%;
+}
+
+.about_section .img-box-2 img {
+  width: 80%;
 }
 
 .about_section .detail-box h2 {
@@ -474,8 +478,32 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: transparent;
-  color: #ff8a1d;
+  background-color: #924d0c;
+  color: #ffffff;
+}
+
+.about_section .scroll-container {
+  background-color: #faf8f8;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.about_section .scroll-container img {
+  padding: 10px;
+  width: 50%;
+}
+
+.about_section .scroll-container-2 {
+  background-color: #faf8f8;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.about_section .scroll-container-2 img {
+  padding: 10px;
+  width: 70%;
 }
 
 .service_section {
