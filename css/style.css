@@ -135,6 +135,7 @@ a:focus {
 .custom_nav-container .navbar-nav {
   margin-left: auto;
 }
+
 .logo {
     background-color: #FFFFFF;
     background-position-x:20px;
@@ -302,7 +303,7 @@ a:focus {
     .slider_section .detail-box h1 {
         word-break: normal;
         margin-top: -50px;
-        font-family: 'Monaco';
+        font-family: 'Arial Rounded MT';
         font-size: 70px;
         font-weight: bold;
         margin-bottom: 50px;
@@ -444,7 +445,7 @@ a:focus {
 }
 
 .about_section {
-    background-color: white;
+    background-image: linear-gradient(to bottom left, #4da7e2,#76d5e8,#c5f0e6);
 }
 
 .about_section .row {
@@ -467,10 +468,13 @@ a:focus {
   color: #0355cc;
 }
 .about_section .bigsized h7 {
-        text-transform: uppercase;
-        font-weight:bolder;
-        font-size: 50px;
-        color: #0355cc;
+    font-family:'Arial Rounded MT';
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 50px;
+    color: #0355cc;
+    margin-left:50px;
+    margin-bottom:20px;
 }
 .about_section .detail-box p {
   margin-top: 20px;
