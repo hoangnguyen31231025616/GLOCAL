@@ -2,6 +2,10 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+@font-face{
+  font-family: 'Geneva'; 
+  src: url('fonts\GenevaPlain.ttf')
+}
 
 .layout_padding {
   padding-top: 120px;
@@ -296,11 +300,14 @@ a:focus {
 }
 
     .slider_section .detail-box h1 {
+        word-break: normal;
         margin-top: -50px;
-        font-family: 'Arial Rounded MT';
-        font-size: 80px;
+        font-family: 'Monaco';
+        font-size: 70px;
+        font-weight: bold;
         margin-bottom: 50px;
-        color: rgba(254,240,227,255);
+        color: #f0f0f0;
+        text-transform: uppercase;
     }
 
 
@@ -316,8 +323,8 @@ a:focus {
   margin-top: 15px;
 }
 .slider_section .detail-box a:hover {
-        background-color: transparent;
-        color: #ff8a1d;
+        background-color: #2969cf;
+        color: #ffffff;
 }
 
 .slider_section .img-box img {
@@ -437,7 +444,7 @@ a:focus {
 }
 
 .about_section {
-    background-image: linear-gradient(to bottom left, #4da7e2,#76d5e8,#c5f0e6);
+    background-color: white;
 }
 
 .about_section .row {
@@ -447,7 +454,11 @@ a:focus {
 }
 
 .about_section .img-box img {
-  width: 100%;
+  width: 40%;
+}
+
+.about_section .img-box-2 img {
+  width: 80%;
 }
 
 .about_section .detail-box h2 {
@@ -473,8 +484,32 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: transparent;
-  color: #ff8a1d;
+  background-color: #924d0c;
+  color: #ffffff;
+}
+
+.about_section .scroll-container {
+  background-color: #faf8f8;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.about_section .scroll-container img {
+  padding: 10px;
+  width: 50%;
+}
+
+.about_section .scroll-container-2 {
+  background-color: #faf8f8;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.about_section .scroll-container-2 img {
+  padding: 10px;
+  width: 70%;
 }
 
 .service_section {
@@ -699,8 +734,8 @@ a:focus {
 }
 
 .contact_section button:hover {
-  background-color: transparent;
-  color: #0355cc;
+  background-color: #012a68;
+  color: #ffffff;
 }
 
 .contact_section .map_container {
@@ -709,6 +744,14 @@ a:focus {
 
 .contact_section .map_container .map {
   height: 100%;
+}
+
+.contact_section .img-box img {
+  float:right;
+  width: 40%;
+  margin-bottom:100px;
+  margin-right:50px;
+  transform: rotate(12.5deg);
 }
 
 .info_section {
@@ -837,3 +880,139 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+/* start billing section*/
+.billing-section .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.billing-section .col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.billing-section .col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.billing-section .col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.billing-section .container_billing {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.billing-section input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.billing-section label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.billing-section .icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.billing-section .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.billing-section .btn:hover {
+  background-color: #45a049;
+}
+
+.billing-section span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+/* end billing section*/
+
+/* louge section */
+.louge_section .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.louge_section .price {
+  color: grey;
+  font-size: 22px;
+}
+
+.louge_section .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.louge_section .card button:hover {
+  opacity: 0.7;
+}
+
+.louge_section .detail-box a {
+  display: inline;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  background-color: #ff8a1d;
+  border: 1px solid #ff8a1d;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.louge_section .detail-box a:hover {
+        background-color: #2969cf;
+        color: #ffffff;
+}
+/* end louge section */
