@@ -455,17 +455,24 @@ a:focus {
   font-weight: bold;
   color: #0355cc;
 }
-
+.about_section .bigsized h7 {
+        text-transform: uppercase;
+        font-weight:bolder;
+        font-size: 50px;
+        color: #0355cc;
+}
 .about_section .detail-box p {
   margin-top: 20px;
+  font-size:23px;
+  text-align:right;
 }
-
 .about_section .detail-box a {
   margin-top: 25px;
-  display: inline-block;
+  display: block;
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
-  padding: 10px 45px;
+  text-align:center;
+  padding: 10px 30px -30px 10px;
   background-color: #ff8a1d;
   border: 1px solid #ff8a1d;
   border-radius: 2px;
@@ -673,7 +680,7 @@ a:focus {
   color: #737272;
 }
 
-.contact_section input::-ms-input-placeholder {
+.contact_section input:-ms-input-placeholder {
   color: #737272;
 }
 
