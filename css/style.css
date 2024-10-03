@@ -326,38 +326,29 @@ a:focus {
 
                                                             /* pricing section */
 
-.client_section .heading_container {
+.pricing_section .heading_container {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    text-align: center;
+    text-align: center; 
+}
+.pricing_section .heading_container{
+    color: #000000;
 }
 
-.client_section .box {
+.pricing_section .box {
     margin: 15px;
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    padding: 25px;
+    padding: 20px;
+    border-radius:0px 75px 0px 75px; 
 }
 
-    .client_section .box .client_id {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-
-        .client_section .box .client_id .img-box {
-            width: 125px;
-            min-width: 125px;
-            margin-right: 15px;
-        }
-
-            .client_section .box .client_id .img-box img {
+            .pricing_section .box .pricing_id  img {
                 width: 100%;
-                border-radius: 100%;
+                border-radius: 0px 75px 0px 5px;
             }
 
-        .client_section .box .client_id .client_detail {
+        .pricing_section .box .pricing_id .pricing_detail {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -373,19 +364,27 @@ a:focus {
             padding-right: 25px;
         }
 
-            .client_section .box .client_id .client_detail .client_info h6 {
+            .pricing_section .box .pricing_id .pricing_detail .pricing_info h6 {
                 margin-bottom: 0;
             }
 
-            .client_section .box .client_id .client_detail .client_info i {
-                color: #fbaf5d;
-            }
 
-    .client_section .box .client_text {
+    .pricing_section .box .pricing_text {
         margin-top: 20px;
+        text-align:center;
+        font-family: 'Arial Rounded MT';
+        font-weight:50;        
     }
+        .pricing_section .box .pricing_text h6 {
+            margin-top: 20px;
+            text-align: center;
+            font-family: 'Arial Rounded MT';
+            font-weight: bold;
+            font-size: 50px;
+            color: #4d91c9;
+        }
 
-.client_section .owl-carousel .owl-nav {
+.pricing_section .owl-carousel .owl-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -395,13 +394,14 @@ a:focus {
     margin-top: 20px;
 }
 
-    .client_section .owl-carousel .owl-nav button {
+    .pricing_section .owl-carousel .owl-nav button {
         width: 50px;
         height: 50px;
-        background-color: #0355cc;
+        background-image: linear-gradient(to bottom right,#000000,#4da7e2,#76d5e8,#c5f0e6);
         outline: none;
         margin: 0 20px;
         color: #ffffff;
+        margin-bottom: 50px;
     }
 
                                                             /* about section */
