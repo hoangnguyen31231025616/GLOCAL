@@ -80,7 +80,7 @@ a:focus {
                                                                         /*header section style*/
 .hero_area {
     position: page;
-    background-image: linear-gradient(to bottom left,#c5e2f0,#0099ff,#00b7ff);
+    background-image: linear-gradient(to bottom right,#71de90,#c5e2f0,#00b7ff,#3bf570);
 }
 .header_section .container-fluid {
   padding-right: 25px;
@@ -339,11 +339,12 @@ a:focus {
     margin: 15px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     padding: 20px;
-    border-radius:0px 75px 0px 75px; 
+    border-radius:0px 75px 0px 5px; 
 }
 
             .pricing_section .box .pricing_id  img {
-                width: 100%;
+                width: 500px;
+                height: 500px; 
                 border-radius: 0px 75px 0px 5px;
             }
 
