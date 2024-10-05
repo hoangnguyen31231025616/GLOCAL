@@ -329,23 +329,24 @@ a:focus {
     -ms-flex-align: center;
     align-items: center;
     text-align: center; 
+    color:#ffffff;
 }
-.pricing_section .heading_container{
-    color: #ffffff;
-}
-
+    .pricing_section .heading_container h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 70px;
+    }
 .pricing_section .box {
-  background-color: #a377c7;
+    background-color: #0a4a04;
     margin: 15px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     padding: 20px;
-    border-radius:0px 75px 0px 5px; 
+    border-radius: 0px 75px 0px 5px;
 }
 
             .pricing_section .box .pricing_id  img {
                 width: 500px;
                 height: 500px; 
-                border-radius: 0px 75px 0px 5px;
+                border-radius: 0px 65px 0px 5px;
             }
 
         .pricing_section .box .pricing_id .pricing_detail {
@@ -432,11 +433,7 @@ a:focus {
         font-weight: bolder;
         font-size: 70px;
         color: #ffffff;
-        margin-left: 100px;
-        margin-bottom: -200px;
-        margin-top: 500px;
-        transform-origin: 0 0;
-        transform: rotate(-90deg)
+        margin-right:100px;
     }
 .about_section .detail-box p {
     margin-top: 20px;
